@@ -34,6 +34,9 @@ class MySharedPreferences (context: Context) {
         get()=prefs.getString("apMaterno","apMaterno")
         set(value)=prefs.edit().putString("apMaterno",value).apply()
 
+    val api_key:String?
+        get()=prefs.getString("api_key", "RizFauVaZfZmPu6OjmTC7da2hegt4Rwq8HlAACN8")
+
 }
 
 
