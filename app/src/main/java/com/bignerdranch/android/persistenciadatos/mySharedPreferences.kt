@@ -33,10 +33,7 @@ class MySharedPreferences (context: Context) {
     var aMaterno:String?
         get()=prefs.getString("apMaterno","apMaterno")
         set(value)=prefs.edit().putString("apMaterno",value).apply()
-
-    val api_key:String?
-        get()=prefs.getString("api_key", "RizFauVaZfZmPu6OjmTC7da2hegt4Rwq8HlAACN8")
-
+        // Los atributos que coloques deben tener tanto el get como el post
 }
 
 

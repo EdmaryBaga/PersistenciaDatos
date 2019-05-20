@@ -27,5 +27,16 @@
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="@+id/text_message"
             app:layout_constraintHorizontal_bias="0.498"
-            app:layout_constraintVertical_bias="0.224"/>
+            app:layout_constraintVertical_bias="0.143"/>
+
+    <Button
+            android:id="@+id/get_productos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Productos"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/nom_usu"
+            app:layout_constraintVertical_bias="0.148"
+            android:layout_marginLeft="152dp"/>
 </android.support.constraint.ConstraintLayout>
