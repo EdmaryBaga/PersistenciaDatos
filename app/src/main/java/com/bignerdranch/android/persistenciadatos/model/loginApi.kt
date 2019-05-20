@@ -1,7 +1,6 @@
 package com.bignerdranch.android.persistenciadatos.model
 
 import com.bignerdranch.android.persistenciadatos.login
-import com.bignerdranch.android.persistenciadatos.response
 import com.bignerdranch.android.persistenciadatos.usuario
 import retrofit2.Call
 import retrofit2.Retrofit

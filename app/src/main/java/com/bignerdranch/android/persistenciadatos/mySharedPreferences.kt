@@ -30,7 +30,7 @@ class MySharedPreferences (context: Context) {
         get()=prefs.getString("apPaterno","apPaterno")
         set(value) = prefs.edit().putString("apPaterno",value).apply()
 
-    var aMaterno:String
+    var aMaterno:String?
         get()=prefs.getString("apMaterno","apMaterno")
         set(value)=prefs.edit().putString("apMaterno",value).apply()
 
