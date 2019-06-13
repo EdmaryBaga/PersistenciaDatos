@@ -10,6 +10,8 @@ interface ProductosApi{
     @GET("/v2/5ce2f514340000548877380b")
     fun obtenProductos(): Call<ResponseProd>
 
+    //En el baseURL solo se coloca lo que esta antes de la primera /
+
     companion object{
         fun creaCliente():ProductosApi{
             val retrofit= Retrofit.Builder()
